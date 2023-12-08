@@ -13,6 +13,15 @@ The model architecture is a simple convolutional neural network (CNN) with the f
 * Dense layer with 512 neurons and ReLU activation
 * Output layer with 5 neurons (one for each celebrity) and softmax activation
 
+## Libraries
+* Python 3
+* TensorFlow
+* NumPy
+* Matplotlib
+* OpenCV
+* Pillow (PIL)
+* Scikit-learn
+
 ## Training
 The model is compiled using the Adam optimizer and sparse categorical crossentropy loss. It is trained for 200 epochs with early stopping to prevent overfitting.
 Training plots (accuracy and loss) are saved as celebrity_accuracy_plot.png and celebrity_sample_loss_plot.png respectively.
