@@ -4,10 +4,11 @@ the model is trained using Convolutional Neural Network and predicted the images
 
 # Model Architecture
 The model architecture is a simple convolutional neural network (CNN) with the following layers:
-Convolutional layer with 32 filters and a (3, 3) kernel, ReLU activation
-MaxPooling layer with (2, 2) pool size
-Flatten layer
-Dense layer with 256 neurons and ReLU activation
-Dropout layer with a dropout rate of 0.1
-Dense layer with 512 neurons and ReLU activation
-Output layer with 5 neurons (one for each celebrity) and softmax activation
+
+* Convolutional layer with 32 filters and a (3, 3) kernel, ReLU activation
+* MaxPooling layer with (2, 2) pool size
+* Flatten layer
+* Dense layer with 256 neurons and ReLU activation
+* Dropout layer with a dropout rate of 0.1
+* Dense layer with 512 neurons and ReLU activation
+* Output layer with 5 neurons (one for each celebrity) and softmax activation
